@@ -1,0 +1,80 @@
+/* public/css/app.css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Dark mode variants */
+@layer utilities {
+    [data-theme="dark"] .bg-white {
+        @apply bg-gray-800;
+    }
+    [data-theme="dark"] .bg-gray-50 {
+        @apply bg-gray-900;
+    }
+    [data-theme="dark"] .bg-gray-100 {
+        @apply bg-gray-700;
+    }
+    [data-theme="dark"] .bg-gray-200 {
+        @apply bg-gray-700;
+    }
+    [data-theme="dark"] .bg-blue-100 {
+        @apply bg-blue-900;
+    }
+    [data-theme="dark"] .bg-green-100 {
+        @apply bg-green-900;
+    }
+    [data-theme="dark"] .bg-green-500 {
+        @apply bg-green-700;
+    }
+    [data-theme="dark"] .bg-green-600 {
+        @apply bg-green-800;
+    }
+    [data-theme="dark"] .text-white {
+        @apply text-gray-100;
+    }
+    [data-theme="dark"] .text-gray-500 {
+        @apply text-gray-300;
+    }
+    [data-theme="dark"] .text-gray-600 {
+        @apply text-gray-300;
+    }
+    [data-theme="dark"] .text-gray-700 {
+        @apply text-gray-200;
+    }
+    [data-theme="dark"] .border-gray-100 {
+        @apply border-gray-600;
+    }
+    [data-theme="dark"] .border-gray-200 {
+        @apply border-gray-600;
+    }
+    [data-theme="dark"] .border-gray-500 {
+        @apply border-gray-600;
+    }
+    [data-theme="dark"] .btn-primary {
+        @apply bg-blue-600 border-blue-600;
+    }
+    [data-theme="dark"] .btn-outline-primary {
+        @apply border-blue-500 text-blue-500;
+    }
+    [data-theme="dark"] .btn-outline-light {
+        @apply border-gray-200 text-gray-200;
+    }
+    [data-theme="dark"] .text-blue-600 {
+        @apply text-blue-400;
+    }
+    [data-theme="dark"] .text-yellow-600 {
+        @apply text-yellow-400;
+    }
+    [data-theme="dark"] .text-blue-500 {
+        @apply text-blue-300;
+    }
+    [data-theme="dark"] .text-green-600 {
+        @apply text-green-400;
+    }
+    [data-theme="dark"] .text-red-600 {
+        @apply text-red-400;
+    }
+    [data-theme="dark"] .text-red-500 {
+        @apply text-red-400;
+    }
+}
